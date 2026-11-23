@@ -1,0 +1,12 @@
+{
+	"key.category.safetool.general": "SafeTool",
+	"key.safetool.toggle": "Toggle SafeTool Protection",
+	"message.safetool.toggle.enabled": "SafeTool: Enabled",
+	"message.safetool.toggle.disabled": "SafeTool: Disabled",
+	"message.safetool.tool_critical": "SafeTool: Critical durability! Hold SHIFT to override",
+	"message.safetool.elytra_critical": "SafeTool: Elytra critical! Hold SHIFT to boost",
+	"screen.safetool.config.title": "SafeTool Configuration",
+	"option.safetool.mod_enabled": "Protection Enabled",
+	"option.safetool.show_hud": "Show Durability HUD",
+	"option.safetool.min_durability_threshold": "Min Durability Threshold: %s"
+}

@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "safetool",
+	"version": "${version}",
+	"name": "SafeTool",
+	"description": "Lightweight 100% client-side mod that prevents accidental breakage of tools, weapons, and Elytra with a clean durability HUD.",
+	"authors": [
+		"ivosdev"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/safetool",
+		"sources": "https://github.com/minecraft-open-source/SafeTool"
+	},
+	"license": "MIT",
+	"icon": "assets/safetool/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ivosdev.safetool.SafeToolClient"
+		],
+		"modmenu": [
+			"com.ivosdev.safetool.compat.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

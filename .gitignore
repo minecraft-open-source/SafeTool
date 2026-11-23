@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+
+# Compiled binaries (keep Gradle wrapper JAR)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Minecraft runtime
+run/
+logs/
+crash-reports/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+out/
+
+# OS
+.DS_Store
+Thumbs.db
